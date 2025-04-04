@@ -1,0 +1,24 @@
+$primary: #48549b;
+$secondary: #849dd1;
+$info: #2c86b6;
+$success: #384385;
+$danger: #A31D1D;
+$warning: #FFB22C;
+$light: #fdfdfd;
+
+$theme-colors: (
+  "primary": $primary,
+  "secondary": $secondary,
+  "info": $info,
+  "success": $success,
+  "danger": $danger,
+  "warning": $warning,
+  "light": $light
+);
+
+@import 'bootstrap/scss/functions';
+@import 'bootstrap/scss/variables';
+
+$font-sizes: map-merge($font-sizes, (7: 0.760rem, 8: 0.585rem));
+
+@import 'bootstrap/scss/bootstrap';
