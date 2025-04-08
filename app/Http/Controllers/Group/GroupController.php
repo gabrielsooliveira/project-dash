@@ -3,13 +3,24 @@
 namespace App\Http\Controllers\Group;
 
 use App\Http\Controllers\Controller;
+use App\Services\Group\GroupService;
 use Illuminate\Http\Request;
 
 class GroupController extends Controller
 {
+    protected $groupService;
+
+    public function __construct(
+        GroupService $groupService
+    )
+    {
+        $this->groupService = $groupService;
+    }
+
     public function index()
     {
-        return inertia('Dashboard/Group/Index');
+        $data = $this->groupService->getAllUserGroups();
+        return inertia('Dashboard/Group/Index', $data);
     }
 
     public function show()

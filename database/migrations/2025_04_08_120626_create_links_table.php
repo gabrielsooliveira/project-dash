@@ -13,8 +13,9 @@ return new class extends Migration
     {
         Schema::create('links', function (Blueprint $table) {
             $table->id();
-            $table->string('link', 255)->nullable();
-            $table->boolean('ativo')->default(true);
+            $table->string('url', 255)->nullable();
+            $table->boolean('status')->default(true);
+            $table->foreignId('user_group_id')->constrained()->onDelete('cascade');
             $table->timestamps();
         });
     }

@@ -43,14 +43,12 @@ const form = useForm({
                                 </Link>
                                 <div class="d-grid gap-2 my-4">
                                     <button type="submit" class="btn btn-primary mt-3">Entrar</button>
-                                    <p class="fs-7">Ao fazer login você concorda com os <a href="#" target="_blank">Termos
-                                            de Uso</a> e <a href="#" target="_blank">Política de Privacidade</a></p>
+                                    <p class="fs-7">Ao fazer login você concorda com os <a href="#" target="_blank">Termos de Uso</a> e <a href="#" target="_blank">Política de Privacidade</a></p>
                                 </div>
                             </form>
                         </div>
 
-                        <Link class="mt-2 text-decoration-none fw-bold" :href="route('register')" aria-label="registre-se">
-                        Ainda não possui uma conta? <span class="text-info">Registra-se.</span></Link>
+                        <Link class="mt-2 text-decoration-none fw-bold" :href="route('register')" aria-label="registre-se">Ainda não possui uma conta? <span class="text-info">Registra-se.</span></Link>
 
                         <Link class="mt-2 text-decoration-none fw-bold" :href="route('home')" aria-label="retornar para home">Ir para home <font-awesome-icon icon="fa-solid fa-door-open" /></Link>
                     </div>

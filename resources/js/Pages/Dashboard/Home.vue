@@ -55,7 +55,7 @@ const items = [
             <div class="bg-body rounded shadow-md p-3">
                 <h6 class="border-bottom pb-2 mb-0">Atualizações Recentes</h6>
                 <div class="d-flex text-muted pt-3">
-                    <img class="bd-placeholder-img flex-shrink-0 me-2 rounded" src="https://dummyimage.com/600x400/48549b/fff" width="32" height="32">
+                    <img class="bd-placeholder-img flex-shrink-0 me-2 rounded" src="https://dummyimage.com/600x400/006A71/fff" width="32" height="32">
 
                     <p class="pb-3 mb-0 small lh-sm border-bottom">
                         <strong class="d-block text-gray-dark">@Projeto X</strong>
@@ -63,7 +63,7 @@ const items = [
                     </p>
                 </div>
                 <div class="d-flex text-muted pt-3">
-                    <img class="bd-placeholder-img flex-shrink-0 me-2 rounded" src="https://dummyimage.com/600x400/849dd1/fff" width="32" height="32">
+                    <img class="bd-placeholder-img flex-shrink-0 me-2 rounded" src="https://dummyimage.com/600x400/398d8f/fff" width="32" height="32">
 
                     <p class="pb-3 mb-0 small lh-sm border-bottom">
                         <strong class="d-block text-gray-dark">@Projeto Y</strong>
@@ -71,7 +71,7 @@ const items = [
                     </p>
                 </div>
                 <div class="d-flex text-muted pt-3">
-                    <img class="bd-placeholder-img flex-shrink-0 me-2 rounded" src="https://dummyimage.com/600x400/384385/fff" width="32" height="32">
+                    <img class="bd-placeholder-img flex-shrink-0 me-2 rounded" src="https://dummyimage.com/600x400/9ACBD0/fff" width="32" height="32">
 
                     <p class="pb-3 mb-0 small lh-sm border-bottom">
                         <strong class="d-block text-gray-dark">@Projeto Z</strong>
@@ -79,7 +79,7 @@ const items = [
                     </p>
                 </div>
                 <div class="d-flex text-muted pt-3">
-                    <img class="bd-placeholder-img flex-shrink-0 me-2 rounded" src="https://dummyimage.com/600x400/384385/fff" width="32" height="32">
+                    <img class="bd-placeholder-img flex-shrink-0 me-2 rounded" src="https://dummyimage.com/600x400/398d8f/fff" width="32" height="32">
 
                     <p class="pb-3 mb-0 small lh-sm border-bottom">
                         <strong class="d-block text-gray-dark">@Projeto Z</strong>
@@ -87,17 +87,17 @@ const items = [
                     </p>
                 </div>
                 <small class="d-block text-end mt-3">
-                <a href="#">Todas Atualizações</a>
+                <a href="#" >Todas Atualizações</a>
                 </small>
             </div>
         </div>
     </div>
 
-    <div class="p-5 mb-4 bg-light rounded-3 shadow-md mt-5">
+    <div class="p-5 mb-4 bg-primary text-white rounded-3 shadow-md mt-5">
         <div class="container-fluid py-3">
             <h1 class="display-5 fw-bold">Organize e acompanhe seus grupos de estudo com facilidade!</h1>
             <p class="col-md-8 fs-4">Gere relatórios completos, visualize o progresso dos participantes e mantenha tudo sob controle em um só lugar</p>
-            <button class="btn btn-primary bg-gradient btn-lg" type="button">Comece agora</button>
+            <button class="btn btn-light bg-gradient btn-lg" type="button">Comece agora</button>
         </div>
     </div>
 </template>
