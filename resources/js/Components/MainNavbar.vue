@@ -1,11 +1,13 @@
 <script setup>
 import { Link } from '@inertiajs/vue3';
+import IconLogo from "@/assets/images/icon.svg";
 </script>
 
 <template>
     <nav class="navbar navbar-expand-lg bg-white fixed-top" aria-label="Navbar site">
         <div class="container-fluid">
             <a :href="route('home')" class="d-flex align-items-center link-primary text-decoration-none">
+                <img :src="IconLogo" alt="imagem principal" class="img-fluid me-1" width="40">
                 <span class="fs-4 fw-bold">Dash</span>
             </a>
             <button class="btn btn-primary d-lg-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSite"

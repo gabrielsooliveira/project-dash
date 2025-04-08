@@ -45,4 +45,17 @@ class User extends Authenticatable
             'password' => 'hashed',
         ];
     }
+
+    public function ownedGroups()
+    {
+        return $this->hasMany(Group::class, 'user_id');
+    }
+
+    public function links() {
+        return $this->hasMany(Link::class);
+    }
+
+    public function groups() {
+        return $this->belongsToMany(User::class);
+    }
 }
